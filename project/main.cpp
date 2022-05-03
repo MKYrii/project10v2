@@ -107,6 +107,7 @@ int main(){
 
     while (window.isOpen()) {
         Event event;
+        // цикл для обработки событий (нажатия на кнопки меню, запуск уровней)
         while (window.pollEvent(event)){
             if (event.type == Event::Closed) {
                 window.close();
@@ -312,6 +313,7 @@ int main(){
                 textForShowInputUsername.setString(si);
             }
         }
+        // отрисовка всех элементов меню
         window.clear(Color::Black);
         window.draw(exit);
         window.draw(cross11);
