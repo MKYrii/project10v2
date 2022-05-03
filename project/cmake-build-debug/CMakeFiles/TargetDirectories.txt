@@ -1,0 +1,3 @@
+C:/Users/Uriy/CLionProjects/GameStars/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Uriy/CLionProjects/GameStars/cmake-build-debug/CMakeFiles/GameStars.dir
+C:/Users/Uriy/CLionProjects/GameStars/cmake-build-debug/CMakeFiles/rebuild_cache.dir
