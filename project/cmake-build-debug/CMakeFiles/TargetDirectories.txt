@@ -1,3 +1,0 @@
-C:/GameStars/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/GameStars/cmake-build-debug/CMakeFiles/GameStars.dir
-C:/GameStars/cmake-build-debug/CMakeFiles/rebuild_cache.dir
