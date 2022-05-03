@@ -226,6 +226,7 @@ bool GameScene::isGameOver() {
         return false;
 }
 
+// функция, выполняющая все подсчеты между кадрами, изменяющая объекты
 void GameScene::processFrame() {
     if (not mCharacter.isAlive or countEnemies == 0 and level == maxLevel)
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space) and pt.getElapsedTime().asSeconds() > 0.5) {
@@ -318,6 +319,7 @@ void GameScene::processFrame() {
     enemyCollisions();
 }
 
+// отрисовка кадра
 void GameScene::draw(RenderTarget &target, RenderStates states) const {
     for (Star *star: mStars)
         target.draw(*star);
