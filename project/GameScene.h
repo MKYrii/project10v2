@@ -36,6 +36,7 @@ public:
             mCharacter.countRockets = 20;
             mCharacter.health = 10;
         }
+        // расстановка противников и генерация звезд
 
         for (int i = 0; i < countShootingEnemies; i++) {
             int p = 50;
